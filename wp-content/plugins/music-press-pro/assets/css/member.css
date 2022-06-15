@@ -1,0 +1,43 @@
+.music-press-member-edit .mp-info {
+  margin-bottom: 15px;
+}
+.music-press-member-edit .mp-info label {
+  display: block;
+}
+.music-press-member-edit .mp-info select {
+  width: 100%;
+  border: none;
+  padding: 5px;
+}
+.music-press-member-edit input[type="submit"],
+.music-press-member-edit .add-contacts {
+  padding: 7px 15px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.music-press-member-edit .remove {
+  cursor: pointer;
+}
+.music-press-member-edit .move {
+  margin-left: 10px;
+  cursor: move;
+}
+.mp-contacts .item {
+  margin-bottom: 15px;
+}
+.mp-contacts .item input {
+  margin: 8px 0;
+}
+.mp-contacts .item select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: none;
+}

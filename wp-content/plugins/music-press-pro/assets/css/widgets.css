@@ -1,0 +1,383 @@
+/*
+* Widget plugin css
+* Packet musicpress / style
+* @version 1.0.0
+*/
+
+/*------------Artists Widget css---------------*/
+.widget_get_artists ul {
+    list-style: none;
+}
+
+.widget_get_artists ul.mp-list li.mp-item {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.widget_get_artists ul li.mp-item a.mp-img {
+    height: auto;
+    float: left;
+    margin-bottom: 0;
+}
+
+.widget_get_artists ul li.mp-item a.mp-img img {
+    max-width: 50px;
+}
+
+.widget_get_artists ul li h3 {
+    margin: 11px 0 11px 20px;
+}
+
+.widget_get_artists ul li h3 a {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+/*------------Login Widget css---------------*/
+.before-login__showcontent {
+    background: #eee;
+    padding: 10px 15px;
+}
+
+.before-login__showcontent img {
+    margin-right: 10px;
+}
+
+.before-login__showcontent:hover {
+    cursor: pointer;
+}
+
+.before-login__hiddencontent {
+    background: #32373c;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hiddencontent__rightcontent {
+    margin-left: 15px;
+}
+
+.before-login__hiddencontent a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.before-login__hiddencontent a i {
+    margin-left: 5px;
+}
+
+.before-login__hiddencontent a:hover {
+    color: #00b9eb;
+}
+
+.before-login__hiddencontent {
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+}
+
+.before-login__hover:hover .before-login__hiddencontent {
+    visibility: visible;
+    height: auto;
+    padding: 10px 15px;
+
+}
+
+#widget_login .after-login {
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+#widget_login .after-login a {
+    font-size: 12px;
+    padding: 7px 15px;
+
+}
+
+#widget_login .after-login a.login {
+    background: #32373c;
+    color: #fff;
+}
+
+#widget_login .after-login a.register {
+    border: 1px solid #eee;
+}
+
+#widget_login .after-login span {
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/*---------------------Video Songs Widget-------------------*/
+.widget_get_video_songs .mp-list {
+    list-style: none;
+    margin: 0;
+}
+
+.widget_get_video_songs .mp-list.w25 .mp-item {
+    width: 25%;
+}
+
+.widget_get_video_songs .mp-list.w33 .mp-item {
+    width: 33.33%;
+}
+
+.widget_get_video_songs .mp-list.w50 .mp-item {
+    width: 50%;
+}
+
+.widget_get_video_songs .mp-list.w100 .mp-item {
+    width: 100%;
+    padding-left: 0;
+}
+
+.widget_get_video_songs .mp-list .mp-item .mp-img {
+    height: auto;
+    width: auto;
+}
+
+.widget_get_video_songs .mp-list .mp-item .mp-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+* Share songs css
+*/
+.jp-share {
+    position: relative;
+    float: right;
+    padding: 0 10px;
+}
+
+.jp-share .jp-share__button {
+    border: 1px solid #eee;
+    padding: 7px 20px 7px 15px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.jp-share .jp-share__button .caret {
+    display: none;
+}
+
+.jp-share:hover .dropdown-menu {
+    display: block;
+}
+
+.jp-share .dropdown-menu {
+    list-style: none;
+    width: 200px;
+    position: absolute;
+    left: -120px;
+    top: 0;
+    background: #32373c;
+    padding: 10px 15px;
+    margin: 35px 0 0 0;
+    display: none;
+}
+
+.jp-share .dropdown-menu li a {
+    color: #eee;
+    font-size: 12px;
+}
+
+.jp-share .dropdown-menu li:hover a {
+    color: #00b9eb;
+}
+
+/*------Widget Song Search-------*/
+
+.music-search-form .field-keyword label b {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.music-search-form .field-keyword .search-field {
+    margin-bottom: 10px;
+}
+
+/*----------Widget Recent Songs-----------*/
+
+.widget_recent_songs ul {
+    list-style: none;
+}
+
+.widget_recent_songs .song_listing {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.widget_recent_songs .songs_listings a {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.widget_recent_songs .songs_listings .clr {
+    clear: both;
+}
+
+.widget_recent_songs .songs_listings a img {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+}
+
+.widget_recent_songs .songs_listings h4 {
+    margin-left: 20px;
+}
+
+/*-----------------List songs shortcode----------------------*/
+.widget_songs_list .songs-character .directional {
+    margin: 0 5px;
+    border-bottom: 0;
+    outline: 0;
+}
+
+.widget_songs_list .songs-character .directional.active {
+    color: royalblue;
+}
+
+.widget_songs_list .songs-character .directional:focus {
+    border: 0;
+    background: 0;
+}
+
+#ls_content .s_item {
+    float: left;
+}
+
+#ls_content .clearfix {
+    clear: both;
+}
+
+#ls_content .s_item a {
+    border: 0;
+}
+
+#ls_content .s_item a:hover {
+    color: royalblue;
+}
+
+.s_item.col-1 {
+    width: 100%;
+}
+
+.s_item.col-2 {
+    width: 50%;
+}
+
+.s_item.col-3 {
+    width: 33.33%;
+}
+
+.s_item.col-4 {
+    width: 25%;
+}
+
+/*======================Video songs shorcode============================*/
+
+.videos-song-shortcode ul.video-songs {
+    list-style: none;
+}
+
+.videos-song-shortcode .clearfix {
+    clear: both;
+}
+
+.videos-song-shortcode ul li {
+    margin-bottom: 15px;
+}
+
+.videos-song-shortcode ul li .artist a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+
+.videos-song-shortcode ul li .mp-item__view {
+    font-size: 13px;
+}
+
+.videos-song-shortcode ul li a.mp-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    border: 0;
+}
+
+.videos-song-shortcode ul li a.mp-img img {
+    width: 100%;
+}
+
+.videos-song-shortcode .mp-list .mp-img span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    color: #0088cc;
+    font-size: 18px;
+    margin-left: -20px;
+    margin-top: -20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.videos-song-shortcode ul li a {
+    border: 0;
+}
+
+.videos-song-shortcode ul li h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.videos-song-shortcode .w50 li {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+.videos-song-shortcode .w33 li {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.videos-song-shortcode .w25 li {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+/*===============All Artists Shortcode=======================*/
+.all-artist-shortcode ul li a {
+    border: 0;
+}
+
+.all-artist-shortcode ul li h3 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
